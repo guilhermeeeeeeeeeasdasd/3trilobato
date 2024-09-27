@@ -20,5 +20,35 @@ header {
   font-size: 3em;
   margin-bottom: 10px; 
  }
- 
+ .dropdown{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+ }
+ .menu-btn{
+  padding: 10px 20px;
+  background-color: #ff0080;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;   
+ }
+ .menu-btn:hover{
+  background-color: #ff66a3;
+ }
+ .menu-list{
+  display: none;
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 10;
+  
+ }
+
  
