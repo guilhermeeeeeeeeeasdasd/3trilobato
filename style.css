@@ -60,5 +60,8 @@ header {
   color: #333;
   font-size: 16px;
 }
+.menu-list li a :hover{
+  color: #ff0080;
+}
 
  
